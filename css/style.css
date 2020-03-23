@@ -1,0 +1,336 @@
+/*============= RESETS ============= font-family: 'Lato', sans-serif; */
+
+/*-- iPhone X Remove Gutters --*/
+html {
+    padding: env(safe-area-inset);
+}
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html, body {
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+color:#505962;
+line-height:1.7rem;
+}
+.text-nuno {color:#1ebba3;}
+/*--- Nav Scrolling Offset --*/
+
+/*--- Extra Bootstrap Column Padding --*/
+section {clear:both;overflow:hidden;}
+
+section h3 {
+    padding:14px 0;
+    text-align: center;
+}
+
+section article {
+    max-width:1280px;
+    margin:30px auto;
+    padding:0 24px;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand {
+    color:white;
+    font-weight: 400;
+    font-size:1.1rem;
+}
+.navbar-brand .fas {
+    color:orange;
+}
+.navbar-brand img {
+    height:2rem;
+}
+.navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: background-color 5s ease;
+    background:rgba(0, 0, 0, .4);
+
+}
+.navbar-nav li {
+    padding-right:.8rem;
+}
+.navbar-nav .nav-link {
+    color: #dedbdb;
+    padding-top: .8rem;
+    font-weight: 400;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.hover {
+    color:#fea502;
+}
+.custom-toggler-icon {
+    color:white;
+    font-size: 1.6rem;
+}
+.navbar.solid {
+    background: rgba(0, 0, 0, .7);
+    transition: background-color 1s ease;
+}
+.navbar.solid-toggle {
+    background: rgba(0, 0, 0, .7);
+    transition: background-color 1s ease;
+}
+
+/*-- Remove Button Outline --*/
+button:focus, a:focus, ,a.btn:focus {
+    outline:0;
+    -webkit-appearance: none;
+    box-shadow:none;
+    transition: all .6s ease;
+}
+button, a, a.btn {
+    transition: all .6s ease;
+}
+
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+}
+.home-wrap {
+    clip:rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.home-inner {
+    background-image: url('../img/lot/lot-1.jpg');
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform:translateZ(0);
+    will-change:transform;
+    display:table;
+}
+/*-- Landing Page Caption --*/
+.caption {
+    z-index: 1;
+    position:absolute;
+    top:38%;
+    width:100%;
+}
+
+.caption h1 {
+    font-size:3rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+.caption h3 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    text-transform:initial;
+
+}
+.caption .btn-lg {
+padding:.8rem 1.5rem;
+font-size:1.1rem;
+}
+/*-- Bouncing Down Arrow --*/
+.arrow {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.down-arrow .svg-inline--fa {
+    color: white;
+    font-size: 2.2rem;
+    opacity:.3;
+}
+.down-arrow .svg-inline--fa:hover {
+    opacity: .8;
+}
+/*============= FEATURES SECTION =============*/
+#features article {
+    max-width:1280px;
+    margin:30px auto;
+}
+
+#features h3:before {
+    content: url('../img/svg/turtle.svg');
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+    text-align: center;
+    }
+
+#features .details {
+    /* display:flex; */
+    text-align: center;
+}
+#features .details strong {
+    padding:0 14px 0 0;
+    display: inline-block;
+}
+#features .details span {
+    padding:0 14px 0 ;
+    display: inline-block;
+    border-left:1px solid #ccc
+}
+#features p {
+    padding:14px 0;
+    display: inline-block;
+    text-align:center;
+}
+#features .amenities {
+    margin:34px 0 ;
+}
+#features .amenities ul{
+    margin:0;
+    padding:0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#features .amenities ul li {
+    margin:0 14px;
+}
+
+#features .amenities h3:before {
+    content: url('../img/svg/drink.svg');
+    }
+
+#portfolio {
+    clear:both;
+
+}
+
+#portfolio h3:before {
+    content: url('../img/svg/tropical.svg');
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+    }
+
+#portfolio article {
+    max-width:1280px;
+    margin:30px auto;
+}
+
+#portfolio .gallery {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#portfolio .gallery a {
+   margin:7px;
+   flex: 1 0 20%; /* explanation below */
+}
+
+/*===== FIXED BACKGROUND IMG DARK =====*/
+
+/*--- iOS Fixed Background Image --*/
+
+
+/*============= PORTFOLIO SECTION =============*/
+
+
+/*============= PRICING SECTION =============*/
+
+
+/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+
+/*--- Team Light Background Image --*/
+
+
+/*============= SKILLS SECTION =============*/
+
+
+/*============= FOOTER SECTION =============*/
+footer {
+    background: #666;
+    padding:10px;
+}
+
+/*============= CONTACT SECTION =============*/
+#contact .map {
+    float:left;
+    width:45%;
+    padding:14px;
+
+}
+
+#contact article {
+    width:920px;
+}
+
+#contact form {
+    /* float:left; */
+    width: 66%;
+    padding:14px;
+}
+
+#contact h3:before {
+    content: url('../img/svg/beach.svg');
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+    }
+
+    #contact .row {
+        margin:24px 0;
+    }
+
+/*--- Contact Form --*/
+
+
+/*============= TOP SCROLL =============*/
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+@media (max-width:992px) {
+    #portfolio .gallery a {flex:1 0 25%;}
+}
+
+/* Devices under 768px (md) */
+@media (max-width:768px) {
+#portfolio .gallery a {flex:1 0 100%;}
+}
+
+/* Devices under 576px (sm) */
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
