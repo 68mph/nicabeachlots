@@ -141,8 +141,14 @@ button, a, a.btn {
 
 }
 .caption .btn-lg {
-padding:.8rem 1.5rem;
-font-size:1.1rem;
+    padding:.8rem 1.5rem;
+    font-size:1.1rem;
+    background:rgba(0, 0, 0, .5);
+    border-color: #9c9c9c;
+}
+.caption .btn-lg:hover {
+    background:orange;
+    color:white;
 }
 /*-- Bouncing Down Arrow --*/
 .arrow {
@@ -260,8 +266,13 @@ font-size:1.1rem;
 
 /*============= FOOTER SECTION =============*/
 footer {
-    background: #666;
+    background: #2b2b2b;
     padding:10px;
+}
+
+footer p {
+    color:#828282;
+    margin:0;
 }
 
 /*============= CONTACT SECTION =============*/
