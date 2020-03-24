@@ -273,7 +273,7 @@ footer {
 }
 
 #contact article {
-    width:920px;
+    max-width: 920px;
 }
 
 #contact form {
@@ -309,7 +309,16 @@ footer {
 
 /* Devices under 768px (md) */
 @media (max-width:768px) {
-#portfolio .gallery a {flex:1 0 100%;}
+#portfolio .gallery a {flex:1 0 100%;margin: 0 0 14px 0;}
+
+#contact form {
+    width:100%;
+    padding:0;
+    margin:0
+}
+section article {
+    padding:0 18px;
+}
 }
 
 /* Devices under 576px (sm) */
