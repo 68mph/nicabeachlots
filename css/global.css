@@ -5,7 +5,6 @@ html {
   padding: env(safe-area-inset);
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #505962;
   line-height: 1.7rem;
 }
 
@@ -47,7 +46,7 @@ section article {
 }
 
 .navbar-brand .fas {
-  color: orange;
+  color: #ffa500;
 }
 
 .navbar-brand img {
@@ -55,7 +54,7 @@ section article {
 }
 
 .navbar {
-  padding: 0;
+  padding: 10px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .1rem;
@@ -71,16 +70,15 @@ section article {
 
 .navbar-nav .nav-link {
   color: #dedbdb;
-  padding-top: .8rem;
   font-weight: 400;
 }
 
 .navbar-nav .nav-link.active {
-  color: #fea502;
+  color: #ffa500;
 }
 
 .navbar-nav .nav-link.hover {
-  color: #fea502;
+  color: #ffa500;
 }
 
 .custom-toggler-icon {
@@ -229,11 +227,6 @@ a.btn:focus {
 }
 
 /*============= FEATURES SECTION =============*/
-#features article {
-  max-width: 1280px;
-  margin: 30px auto;
-}
-
 #features h3:before {
   content: url("../img/svg/turtle.svg");
   display: block;
@@ -303,11 +296,6 @@ a.btn:focus {
   height: auto;
 }
 
-#portfolio article {
-  max-width: 1280px;
-  margin: 30px auto;
-}
-
 #portfolio .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,7 +321,8 @@ footer {
 
 footer p {
   color: #828282;
-  margin: 0;
+  margin: 0 14px;
+  display: inline-block;
 }
 
 /*============= CONTACT SECTION =============*/
@@ -341,14 +330,14 @@ footer p {
   /*--- Contact Form --*/
 }
 
-#contact .map {
-  float: left;
-  width: 45%;
-  padding: 14px;
+#contact a {
+  color: #b1b1b0;
 }
 
 #contact article {
-  max-width: 920px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #contact form {
@@ -365,7 +354,26 @@ footer p {
 }
 
 #contact .row {
-  margin: 24px 0;
+  margin: 24px auto 0;
+  max-width: 980px;
+  padding: 0 0 24px;
+}
+
+#contact .contact-info {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+
+#contact button {
+  margin-left: 16px;
+}
+
+/*============= MAP SECTION =============*/
+#map .gmap {
+  height: 350px;
 }
 
 /*============= MEDIA QUERIES =============*/
@@ -393,6 +401,9 @@ footer p {
   }
   section article {
     padding: 0 18px;
+  }
+  footer p {
+    font-size: .85rem;
   }
 }
 

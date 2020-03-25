@@ -1,4 +1,7 @@
 /* Stylesheet for NICA BEACh LOTS!!!!!!!!!*/
+$color-orange: #ffa500;
+$color-type:#505962;
+$color-nav-text: #dedbdb;
 
 /*============= RESETS ============= font-family: 'Lato', sans-serif; */
 /*-- iPhone X Remove Gutters --*/
@@ -6,14 +9,13 @@ html {
 	padding: env(safe-area-inset);
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
-	color: #505962;
 	line-height: 1.7rem;
 }
 /*-- Prevent Horizontal Scrolling & Font Style --*/
 body {
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
-	color: #505962;
+	color: $color-type;
 	line-height: 1.7rem;
 }
 .text-nuno {
@@ -41,14 +43,14 @@ section {
 	font-weight: 400;
 	font-size: 1.1rem;
 	.fas {
-		color: orange;
+		color: $color-orange;
 	}
 	img {
 		height: 2rem;
 	}
 }
 .navbar {
-	padding: 0;
+	padding: 10px;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: .1rem;
@@ -61,15 +63,14 @@ section {
 		padding-right: .8rem;
 	}
 	.nav-link {
-		color: #dedbdb;
-		padding-top: .8rem;
+		color:$color-nav-text#;
 		font-weight: 400;
 	}
 	.nav-link.active {
-		color: #fea502;
+		color: $color-orange;
 	}
 	.nav-link.hover {
-		color: #fea502;
+		color: $color-orange;
 	}
 }
 .custom-toggler-icon {
@@ -190,10 +191,6 @@ a.btn {
 }
 /*============= FEATURES SECTION =============*/
 #features {
-	article {
-		max-width: 1280px;
-		margin: 30px auto;
-	}
 	h3 {
 		&:before {
 			content: url('../img/svg/turtle.svg');
@@ -253,10 +250,6 @@ a.btn {
 			height: auto;
 		}
 	}
-	article {
-		max-width: 1280px;
-		margin: 30px auto;
-	}
 	.gallery {
 		display: flex;
 		flex-wrap: wrap;
@@ -274,18 +267,17 @@ footer {
     text-align: center;
 	p {
         color: #828282;
-        margin:0;
+		margin:0 14px;
+		display:inline-block;
 	}
 }
 /*============= CONTACT SECTION =============*/
 #contact {
-	.map {
-		float: left;
-		width: 45%;
-		padding: 14px;
-	}
+ 	a {color:#b1b1b0;}
 	article {
-		max-width: 920px;
+		max-width: 100%;
+		margin:0;
+		padding:0;
     }
 /*--- Contact Form --*/
 	form {
@@ -302,9 +294,30 @@ footer {
 		}
 	}
 	.row {
-		margin: 24px 0;
+		margin: 24px auto 0;
+		max-width:980px;
+		padding:0 0 24px;
+	}
+	.contact-info {
+		max-width:100%;
+		margin:0;
+		padding:0;
+		background:#f6f6f6;
+		overflow:hidden;
+	}
+	button {
+		margin-left:16px;
+	}
+
+	
+}
+/*============= MAP SECTION =============*/
+#map {
+	.gmap {
+		height:350px;
 	}
 }
+
 /*============= MEDIA QUERIES =============*/
 /* Devices under 992px (lg) */
 @media (max-width:992px) {
@@ -337,6 +350,10 @@ footer {
 		article {
 			padding: 0 18px;
 		}
+	}
+
+	footer p {
+		font-size:.85rem;
 	}
 }
 
