@@ -203,12 +203,13 @@ a.btn:focus {
 .caption .btn-lg {
   padding: .8rem 1.5rem;
   font-size: 1.1rem;
-  background: rgba(0, 0, 0, 0.5);
-  border-color: #9c9c9c;
+  background: #ffa500;
+  border: none;
+  color: white;
 }
 
 .caption .btn-lg:hover {
-  background: orange;
+  background: #3d3d3d;
   color: white;
 }
 
@@ -392,7 +393,10 @@ footer p {
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
   .caption {
-    top: 24%;
+    top: 30%;
+  }
+  .caption h1 {
+    font-size: 2rem;
   }
   #portfolio .gallery a {
     -webkit-box-flex: 1;
