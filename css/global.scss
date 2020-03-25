@@ -1,4 +1,4 @@
-/* Stylesheet for NICA BEACh LOTS!!!!!!!!!*/
+/* Stylesheet for NICA Beach Lots!!!!!!!!!*/
 $color-orange: #ffa500;
 $color-type:#505962;
 $color-nav-text: #dedbdb;
@@ -17,9 +17,6 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: $color-type;
 	line-height: 1.7rem;
-}
-.text-nuno {
-	color: #1ebba3;
 }
 /*--- Nav Scrolling Offset --*/
 
@@ -114,7 +111,6 @@ a.btn {
 	transition: all .6s ease;
 }
 /*============= LANDING PAGE =============*/
-/*--- Fixed Landing Page Section --*/
 .landing {
 	position: relative;
 	width: 100%;
