@@ -39,12 +39,20 @@ section {
 .navbar-brand {
 	color: $color-type;
 	font-weight: 400;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
+	letter-spacing:0.03rem;
+	text-transform: none;
 	.fas {
 		color: $color-orange;
+		font-size:2rem;
+		float:left;
 	}
 	img {
 		height: 2rem;
+	}
+	span{
+		display:inline-block;
+		padding:4px 6px;
 	}
 }
 .navbar {
