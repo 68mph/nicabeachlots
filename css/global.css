@@ -1,6 +1,5 @@
 /* Stylesheet for NICA Beach Lots!!!!!!!!!*/
-/*============= RESETS ============= font-family: 'Lato', sans-serif; */
-/*-- iPhone X Remove Gutters --*/
+s
 html {
   padding: env(safe-area-inset);
   overflow-x: hidden;
@@ -36,7 +35,7 @@ section article {
 
 /*============= NAVIGATION =============*/
 .navbar-brand {
-  color: white;
+  color: #505962;
   font-weight: 400;
   font-size: 1.1rem;
 }
@@ -57,7 +56,7 @@ section article {
   font-size: .9rem;
   -webkit-transition: background-color 5s ease;
   transition: background-color 5s ease;
-  background: rgba(0, 0, 0, 0.6);
+  background: #ffffff;
 }
 
 .navbar-nav li {
@@ -65,7 +64,7 @@ section article {
 }
 
 .navbar-nav .nav-link {
-  color: #dedbdb;
+  color: #505962;
   font-weight: 400;
 }
 
@@ -78,18 +77,18 @@ section article {
 }
 
 .custom-toggler-icon {
-  color: white;
+  color: #505962;
   font-size: 1.6rem;
 }
 
 .navbar.solid {
-  background: rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 4px 4px 6px #dedbdb;
+          box-shadow: 4px 4px 6px #dedbdb;
   -webkit-transition: background-color 1s ease;
   transition: background-color 1s ease;
 }
 
 .navbar.solid-toggle {
-  background: rgba(0, 0, 0, 0.7);
   -webkit-transition: background-color 1s ease;
   transition: background-color 1s ease;
 }
@@ -383,6 +382,9 @@ footer p {
 
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
+  .caption {
+    top: 24%;
+  }
   #portfolio .gallery a {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
