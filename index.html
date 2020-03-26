@@ -88,12 +88,7 @@
 			</div>
 		</a>
 
-
-			
-
 	<!-- End Home Section -->
-
-
 
 	<!-- Start Features Section -->
 	<section id="features">
@@ -102,13 +97,10 @@
 <div class="details">
 	<strong>$25,000</strong>  <span>10,890 sf lot (1/4 acre)</span> 
 </div>
-
 <p>Located approximately one hour from Managua, this extraordinary property offers a once in a lifetime opportunity to own one of the few, but celebrated properties in  
  Finca Del Mar, a treasured community of homes along the warm, blue waters of the Pacific Ocean. Spacious, uninhabited beaches, magnificent sunsets, epic fishing and surfing. Words can only begin to describe 
 	this wonderful property located near some of the most beautiful beaches on Nicaragua's Pacific coastline. The recently completed highway makes the community easily accessible.</p>
-
 	<div class="amenities">
-
 	<h3>Amenities</h3>
 	<ul>
 		<li>WiFi</li>
@@ -126,12 +118,10 @@
 		<li>Property Managment Services</li>
 		<li>Close Proximity to Managua</li>
 		<li>Road Accessable</li>
-
 	</ul>
 </article>
 </section>
 	<!-- End of Features Section -->
-
 	<!-- Start Portfolio Section -->
 	<section id="portfolio">
 		<article>
@@ -156,8 +146,6 @@
 					<img src="img/lot/elot-6.jpg" class="img-fluid">
 					<a href="img/lot/elot-7.jpg" data-toggle="lightbox" data-gallery="multiimages">
 						<img src="img/lot/elot-7.jpg" class="img-fluid">
-	
-
 				<a href="img/lot/elot-8.jpg" data-toggle="lightbox" data-gallery="multiimages">
 					<img src="img/lot/elot-8.jpg" class="img-fluid">
 				</a>
@@ -177,29 +165,6 @@
 			</article>
 	</section>
 	<!-- End of Portfolio Section -->
-
-
-	<!-- Start Pricing Section -->
-	<div id="pricing">
-
-	</div>
-	<!-- End of Pricing Section -->
-
-
-	<!-- Start Team Section -->
-	<div id="team">
-		
-	</div>
-	<!-- End Team Section -->
-
-
-	<!-- Start Skills Section -->
-	<div id="skills">
-		
-	</div>
-	<!-- End of Skills Section -->
-
-
 	<!-- Start Clients Section -->
 	<section id="contact">
 	<article>
@@ -220,21 +185,21 @@
 			</address>
 			</div>
 
-			<form id="contact-form" method="post" action="contact/contact.php" role="form">
+			<form name="contactform" method="post" action="send_form_email.php">
 				<div class="col">
 			<div class="form-row">
 			  <div class="form-group col-md-6" >
-				<input type="email" class="form-control" id="inputFirst" placeholder="First*">
+				<input type="text" name="first_name" class="form-control" id="inputFirst" placeholder="First*">
 			  </div>
 			  <div class="form-group col-md-6">
-				<input type="password" class="form-control" id="inputLast" placeholder="Last*">
+				<input type="text" name="last_name" class="form-control" id="inputLast" placeholder="Last*">
 			  </div>
 			</div>
 			<div class="form-group">
-			  <input type="text" class="form-control" id="inputEmail" placeholder="Email*">
+			  <input type="text" name="email" class="form-control" id="inputEmail" placeholder="Email*">
 			</div>
 			<div class="form-group">
-				<input type="text" class="form-control" id="inputPhone" placeholder="Phone">
+				<input type="text" name="telephone" class="form-control" id="inputPhone" placeholder="Phone">
 			  </div>
 
 			</div>
@@ -244,19 +209,18 @@
 			<div class="col">
 
 			  <div class="form-group col">
-				<textarea class="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
+				<textarea name="comments" class="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
 			</div>
 	</div>
 </div>
 
-			<button type="submit" class="btn btn-dark">Send Inquiry</button>
+  <input type="submit" value="Submit">   
 		  </form>
 		</div>
 	</div>
 	</article>	
 </section>
 	<!-- End of Clients Section -->
-
 
 	<!-- Start Contact Section -->
 	<section id="map">
@@ -272,10 +236,6 @@
 			</div>
 	</footer>
 	<!-- End Contact Section -->
-
-
-	<!-- Top Scroll -->
-
 	<!-- End of Top Scroll -->
 <script>
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -292,7 +252,7 @@
 	<script src="js/plugins.js"></script>
 	<!-- Waypoints https://cdnjs.com/libraries/waypoints
 		https://github.com/imakewebthings/waypoints -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 		
 	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
 	<script src="https://kit.fontawesome.com/859c3b0e27.js" crossorigin="anonymous"></script>
