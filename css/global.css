@@ -33,6 +33,21 @@ section article {
   padding: 0 24px;
 }
 
+.btn-lg {
+  padding: .8rem 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #e09203;
+  border: none;
+  color: white;
+  text-shadow: 0.1rem 0.1rem 0.1rem #565656;
+}
+
+.btn-lg:hover {
+  background: #000;
+  color: white;
+}
+
 /*============= NAVIGATION =============*/
 .navbar-brand {
   color: #505962;
@@ -203,20 +218,6 @@ a.btn:focus {
   text-transform: initial;
 }
 
-.caption .btn-lg {
-  padding: .8rem 1.5rem;
-  font-size: .8rem;
-  background: #e09203;
-  border: none;
-  color: white;
-  text-shadow: 0.1rem 0.1rem 0.1rem #565656;
-}
-
-.caption .btn-lg:hover {
-  background: #000;
-  color: white;
-}
-
 /*-- Bouncing Down Arrow --*/
 .arrow {
   position: absolute;
@@ -361,10 +362,19 @@ footer p {
   height: auto;
 }
 
+#contact .form-row {
+  margin: 0;
+  padding: 0;
+}
+
 #contact .row {
   margin: 24px auto 0;
   max-width: 980px;
   padding: 0 0 24px;
+}
+
+#contact .row .form-group {
+  padding: 0;
 }
 
 #contact .contact-info {
@@ -375,8 +385,8 @@ footer p {
   overflow: hidden;
 }
 
-#contact button {
-  margin-left: 16px;
+#contact .col {
+  padding: 0;
 }
 
 /*============= MAP SECTION =============*/
@@ -411,7 +421,7 @@ footer p {
   #contact form {
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 14px;
   }
   section article {
     padding: 0 18px;

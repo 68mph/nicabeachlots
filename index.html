@@ -185,7 +185,7 @@
 			</address>
 			</div>
 
-			<form name="contactform" method="post" action="send_form_email.php">
+			<form name="contactform" class="mailer-form" method="post" action="send_form_email.php">
 				<div class="col">
 			<div class="form-row">
 			  <div class="form-group col-md-6" >
@@ -201,20 +201,15 @@
 			<div class="form-group">
 				<input type="text" name="telephone" class="form-control" id="inputPhone" placeholder="Phone">
 			  </div>
-
 			</div>
-
 			<div class="form-row">
-
 			<div class="col">
-
 			  <div class="form-group col">
-				<textarea name="comments" class="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
+				<textarea name="comments" class="form-control" aria-label="With textarea" rows="4" placeholder="Your Message"></textarea>
 			</div>
 	</div>
 </div>
-
-  <input type="submit" value="Submit">   
+<input type="submit" value="Submit" class="btn-lg">
 		  </form>
 		</div>
 	</div>
