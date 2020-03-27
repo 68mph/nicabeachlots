@@ -378,7 +378,7 @@ footer p {
 }
 
 #contact .row .form-group {
-  padding: 0;
+  padding: 0 5px;
 }
 
 #contact .contact-info {
@@ -391,6 +391,10 @@ footer p {
 
 #contact .col {
   padding: 0;
+}
+
+#contact address {
+  margin: 12px 0 0;
 }
 
 /*============= MAP SECTION =============*/

@@ -315,7 +315,7 @@ footer {
 		max-width:980px;
 		padding:0 0 24px;
 		.form-group {
-			padding:0;
+			padding:0 5px;
 		}
 	}
 	.contact-info {
@@ -328,7 +328,9 @@ footer {
 .col {
 	padding:0;
 }
-	
+	address {
+		margin:12px 0 0;	
+	}	
 }
 /*============= MAP SECTION =============*/
 #map {
