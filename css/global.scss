@@ -324,6 +324,9 @@ footer {
 		padding:0;
 		background:#f6f6f6;
 		overflow:hidden;
+		.col-md-4 {
+			padding:20px;
+		}
 	}
 .col {
 	padding:0;
@@ -371,6 +374,15 @@ footer {
 			width: 100%;
 			padding: 0;
 			margin: 0 14px;
+			.btn-lg {
+				width:100%;
+			}
+		}
+		address {
+			text-align: center;
+		}
+		.row {
+			margin:0;
 		}
 	}
 	section {
@@ -382,6 +394,7 @@ footer {
 	footer p {
 		font-size:.85rem;
 	}
+
 }
 
 /* Devices under 576px (sm) */

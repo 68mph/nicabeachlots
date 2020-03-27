@@ -389,6 +389,10 @@ footer p {
   overflow: hidden;
 }
 
+#contact .contact-info .col-md-4 {
+  padding: 20px;
+}
+
 #contact .col {
   padding: 0;
 }
@@ -430,6 +434,15 @@ footer p {
     width: 100%;
     padding: 0;
     margin: 0 14px;
+  }
+  #contact form .btn-lg {
+    width: 100%;
+  }
+  #contact address {
+    text-align: center;
+  }
+  #contact .row {
+    margin: 0;
   }
   section article {
     padding: 0 18px;
