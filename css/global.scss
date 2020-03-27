@@ -84,6 +84,10 @@ section {
 	.nav-link {
 		color:$color-type;
 		font-weight: 400;
+		&:hover {
+			color: $color-orange;
+
+		}
 	}
 	.nav-link.active {
 		color: $color-orange;

@@ -92,6 +92,10 @@ section article {
   font-weight: 400;
 }
 
+.navbar-nav .nav-link:hover {
+  color: #ffa500;
+}
+
 .navbar-nav .nav-link.active {
   color: #ffa500;
 }
