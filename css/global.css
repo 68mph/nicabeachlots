@@ -1,5 +1,6 @@
 /* Stylesheet for NICA Beach Lots!!!!!!!!!*/
-s
+/*============= RESETS ============= font-family: 'Lato', sans-serif; */
+/*-- iPhone X Remove Gutters --*/
 html {
   padding: env(safe-area-inset);
   overflow-x: hidden;
@@ -28,7 +29,7 @@ section h3 {
 }
 
 section article {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 30px auto;
   padding: 0 24px;
 }
@@ -207,17 +208,21 @@ a.btn:focus {
   width: 100%;
 }
 
+.caption p {
+  text-transform: initial;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
 .caption h1 {
   font-size: 3rem;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
 }
 
 .caption h3 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 2rem;
   font-weight: 300;
   text-transform: initial;
 }

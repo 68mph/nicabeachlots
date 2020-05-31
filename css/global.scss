@@ -3,7 +3,6 @@ $color-white:#ffffff;
 $color-orange: #ffa500;
 $color-type:#505962;
 $color-nav-text: #dedbdb;
-s
 /*============= RESETS ============= font-family: 'Lato', sans-serif; */
 /*-- iPhone X Remove Gutters --*/
 html {
@@ -30,7 +29,7 @@ section {
 		text-align: center;
 	}
 	article {
-		max-width: 1280px;
+		max-width: 1000px;
 		margin: 30px auto;
 		padding: 0 24px;
 	}
@@ -172,16 +171,19 @@ a.btn {
 	position: absolute;
 	top: 38%;
 	width: 100%;
+	p {
+		text-transform: initial;
+		padding-bottom: 2rem;
+		font-size: 1.6rem;
+	}
 	h1 {
 		font-size: 3rem;
 		letter-spacing: .3rem;
 		text-shadow: .1rem .1rem .8rem black;
-		padding-bottom: 1rem;
 	}
 	h3 {
 		font-size: 2rem;
 		text-shadow: .1rem .1rem .5rem black;
-		padding-bottom: 2rem;
 		font-weight: 300;
 		text-transform: initial;
 	}
