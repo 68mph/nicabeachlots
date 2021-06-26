@@ -38,7 +38,7 @@ section article {
   padding: .8rem 1.5rem;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #e09203;
+  background: #ffa500;
   border: none;
   color: white;
   text-shadow: 0.1rem 0.1rem 0.1rem #565656;
@@ -476,4 +476,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-/*# sourceMappingURL=global.css.map */
